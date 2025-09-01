@@ -18,7 +18,7 @@ This project helps recruiters and HR teams analyze candidate profiles efficientl
 ## 🚀 Getting Started
 
 # Clone the repository
-[GIT REPO CLONE](https://github.com/Prabhakarrayal/Automated-resume-parser/blob/main/Automated_resume_parser.ipynb), [COLLAB CLONE](https://colab.research.google.com/drive/1SUy9xMNNpJdiuXDkIlEgLQ15X1_jkQS2?usp=sharing)
+[GIT REPO CLONE](https://github.com/Prabhakarrayal/Automated-resume-parser/blob/main/Automated_resume_parser.ipynb), [COLAB CLONE](https://colab.research.google.com/drive/1SUy9xMNNpJdiuXDkIlEgLQ15X1_jkQS2?usp=sharing)
 
         cd resume-parser
 
