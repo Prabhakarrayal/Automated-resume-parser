@@ -1,84 +1,86 @@
-# 📄 Resume Parser using Python & NLP  
+# 📄 Resume Parser & Skill Extractor
 
-This project is a **smart Resume Parser** built using Python and Natural Language Processing (NLP).  
-It extracts key details such as **Name, Contact Info, Skills, Education, and Work Experience** from resumes in PDF/DOCX formats, making it easier for recruiters and companies to screen candidates automatically.  
-
----
-
-## 🔧 Technologies Used  
-
-- **Python**  
-- **NLTK / Spacy** (for text processing & NLP)  
-- **PyPDF2** / **pdfplumber** (for parsing PDF resumes)  
-- **python-docx** (for DOCX parsing)  
-- **Regular Expressions (Regex)**  
-- **Jupyter Notebook / Colab / VS Code**  
+An interactive **Resume Parser** built with Python 🐍 that extracts **technical skills, experience, and company details** from resumes.  
+This project demonstrates how to analyze candidate profiles, identify technical skills, and check for specific experience (e.g., working at Google).
 
 ---
 
-## 📌 Features  
+## ✨ Features
 
-✔️ Extracts candidate’s **Name, Email, Phone Number, LinkedIn, GitHub**  
-✔️ Detects and categorizes **Technical Skills & Soft Skills**  
-✔️ Identifies **Education details** (Degrees, Universities, Graduation Year)  
-✔️ Extracts **Work Experience & Projects**  
-✔️ Saves parsed data in a **structured format (JSON/CSV)**  
-✔️ Easy to customize for **company-specific requirements**  
-
----
-
-## 📁 What You Need to Run  
-
-- Python 3.8 or higher  
-- A folder of resumes in **PDF or DOCX** format  
-- Install the dependencies from `requirements.txt`  
+- ✅ Extracts **technical skills** (Python, Java, Flask, SQL, etc.)  
+- ✅ Counts frequency of skills across resumes  
+- ✅ Detects if a candidate has a **specific skill** (e.g., Python)  
+- ✅ Checks if a candidate has **worked in a specific company** (e.g., Google)  
+- ✅ Provides clean, structured JSON-like output for further processing  
 
 ---
 
-## 🚀 How to Run  
+## 🚀 Getting Started
 
-1. Clone this repository:  
+### 1. Clone the Repository
+git clone https://github.com/your-username/resume-parser.git
+cd resume-parser
 
-
-   git clone https://github.com/Prabhakarrayal/resume-parser
-   cd resume-parser
-Install required libraries:
-
-
+2. Install Requirements
+bash
+Copy code
 pip install -r requirements.txt
-Add your resumes (PDF/DOCX) in the /resumes folder.
 
-Run the parser script or Jupyter Notebook:
+3. Run the Parser
+python main.py
 
-python resume_parser.py
-Extracted results will be saved in output.csv or printed on screen.
+## 🛠 How It Works
+The project parses resumes and stores data like this:
 
-## 🛠️ Customization
-To change keywords for skills, edit the skills.json file.
+result = {
+    "skills": {
+        "technical": ["Python", "Java", "SQL", "Flask", "Git", "Machine Learning"]
+    },
+    "experience": [
+        {"company": "Google", "role": "Software Intern"},
+        {"company": "Infosys", "role": "Developer"}
+    ]
+}
 
-To add company-specific fields (like certifications or achievements), update the parser.py logic.
+## 🎯 Customizing Searches
+🔍 Search for a Skill
+In Cell 7, you can edit this part:
+search_skill = 'Python'
+➡️ Change 'Python' to any other skill (e.g., 'AWS', 'Java').
 
-To save data in a database instead of CSV, connect with MongoDB/MySQL in the script.
+🏢 Search for a Company
+In the same cell:
+company_search = 'Google'
+➡️ Change 'Google' to any other company (e.g., 'Amazon', 'Infosys').
 
-## 🌟 Use Case for Companies
-HR Teams → Automatically filter resumes based on job requirements.
+The script will then tell you whether the candidate has that skill or company experience.
 
-Recruitment Platforms → Integrate this parser as a backend module.
+## 📊 Example Output
 
-Startups & Enterprises → Save screening time by structuring unorganized resume data.
+✅ Candidate has technical skill: Python
+❌ Candidate has not worked at Google
 
-## 🚀 Future Improvements
-Add Machine Learning models for smarter skill & role classification
+Total resumes processed: 1
+📊 Technical Skills Frequency:
+Python: 1
+Java: 1
+SQL: 1
+Flask: 1
+...
 
-Support for multi-language resumes
+## 📌 Future Enhancements
+Add NER (Named Entity Recognition) for more accurate company/role detection
 
-Build a Flask/Streamlit Web UI for uploading resumes
+Support for multiple resume formats (PDF, DOCX, etc.)
 
-Integration with ATS systems for real-time processing
+Web interface for uploading resumes
 
-## ✍️ Author
+Database integration for storing parsed results
+
+## 🤝 Contributing
+Pull requests are welcome! If you’d like to improve the parser, add new features, or optimize performance, feel free to open an issue.
+
+## 🧑‍💻 Author
 Prabhakar Rayal
-B.Tech CSE | Graphic Era Hill University
-📍 Rishikesh, Uttarakhand, India
-
-GitHub Profile | LinkedIn Profile
+📍 Rishikesh, Uttarakhand | 🎓 B.Tech CSE Graduate
+🔗 LinkedIn | GitHub
