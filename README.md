@@ -18,6 +18,7 @@ This project demonstrates how to analyze candidate profiles, identify technical 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
+
 git clone https://github.com/your-username/resume-parser.git
 cd resume-parser
 
@@ -30,6 +31,7 @@ pip install -r requirements.txt
 python main.py
 
 ## 🛠 How It Works
+
 The project parses resumes and stores data like this:
 
 result = {
@@ -43,6 +45,7 @@ result = {
 }
 
 ## 🎯 Customizing Searches
+
 🔍 Search for a Skill
 In Cell 7, you can edit this part:
 search_skill = 'Python'
@@ -69,6 +72,7 @@ Flask: 1
 ...
 
 ## 📌 Future Enhancements
+
 Add NER (Named Entity Recognition) for more accurate company/role detection
 
 Support for multiple resume formats (PDF, DOCX, etc.)
@@ -78,7 +82,9 @@ Web interface for uploading resumes
 Database integration for storing parsed results
 
 ## 🤝 Contributing
+
 Pull requests are welcome! If you’d like to improve the parser, add new features, or optimize performance, feel free to open an issue.
+
 
 ## 🧑‍💻 Author
 Prabhakar Rayal
