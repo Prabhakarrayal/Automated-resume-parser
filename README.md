@@ -82,11 +82,11 @@ The parser will output whether the candidate has the skill or company experience
 
 ## 📌 Future Enhancements
 
-- 🔹 Add **NER (Named Entity Recognition)** for more accurate company and role detection  
-- 🔹 Support multiple resume formats (PDF, DOCX, TXT, etc.)  
-- 🔹 Build a **web interface** for uploading resumes and viewing results  
-- 🔹 **Database integration** for storing parsed results and analytics  
-- 🔹 Generate **visual dashboards** for skill distributions across multiple resumes  
+ 🔹 Add **NER (Named Entity Recognition)** for more accurate company and role detection  
+ 🔹 Support multiple resume formats (PDF, DOCX, TXT, etc.)  
+ 🔹 Build a **web interface** for uploading resumes and viewing results  
+ 🔹 **Database integration** for storing parsed results and analytics  
+ 🔹 Generate **visual dashboards** for skill distributions across multiple resumes  
 
 ---
 
