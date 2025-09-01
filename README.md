@@ -18,14 +18,15 @@ This project helps recruiters and HR teams analyze candidate profiles efficientl
 ## 🚀 Getting Started
 
 # Clone the repository
-git clone https://github.com/your-username/resume-parser.git
-cd resume-parser
+[GIT REPO CLONE](https://github.com/Prabhakarrayal/Automated-resume-parser/blob/main/Automated_resume_parser.ipynb), [COLLAB CLONE](https://colab.research.google.com/drive/1SUy9xMNNpJdiuXDkIlEgLQ15X1_jkQS2?usp=sharing)
+
+        cd resume-parser
 
 # Install required Python packages
-pip install -r requirements.txt
+        pip install -r requirements.txt
 
 # Run the parser
-python main.py
+        python main.py
 
 ---
 
@@ -33,15 +34,15 @@ python main.py
 
 The parser reads resumes (PDF or DOCX), extracts text, and identifies **technical skills and experience**. The results are stored in a structured dictionary like this:
 
-result = {
-    "skills": {
-        "technical": ["Python", "Java", "SQL", "Flask", "Git", "Machine Learning"]
-    },
-    "experience": [
-        {"company": "Google", "role": "Software Intern"},
-        {"company": "Infosys", "role": "Developer"}
-    ]
-}
+        result = {
+            "skills": {
+                "technical": ["Python", "Java", "SQL", "Flask", "Git", "Machine Learning"]
+            },
+            "experience": [
+                {"company": "Google", "role": "Software Intern"},
+                {"company": "Infosys", "role": "Developer"}
+            ]
+        }
 
 This allows you to see **exactly what skills the candidate has** and their previous **job experience**, all in a structured format.
 
@@ -52,10 +53,10 @@ This allows you to see **exactly what skills the candidate has** and their previ
 You can easily customize the parser to search for any skill or company:
 
 # Search for a Skill
-search_skill = 'Python'  # Change to any skill like 'AWS', 'Java', etc.
+        search_skill = 'Python'  # Change to any skill like 'AWS', 'Java', etc.
 
 # Search for a Company
-company_search = 'Google'  # Change to any company like 'Amazon', 'Infosys', etc.
+        company_search = 'Google'  # Change to any company like 'Amazon', 'Infosys', etc.
 
 The parser will output whether the candidate has the skill or company experience.
 
@@ -63,18 +64,19 @@ The parser will output whether the candidate has the skill or company experience
 
 ## 📊 Example Output
 
-✅ Candidate has technical skill: Python  
-❌ Candidate has not worked at Google  
+            ✅ Candidate has technical skill: Python  
+            ❌ Candidate has not worked at Google  
 
-Total resumes processed: 1  
+            Total resumes processed: 1  
 
 📊 **Technical Skills Frequency:**  
-Python: 1  
-Java: 1  
-SQL: 1  
-Flask: 1  
-Git: 1  
-Machine Learning: 1  
+
+        Python: 1  
+        Java: 1  
+        SQL: 1  
+        Flask: 1  
+        Git: 1  
+        Machine Learning: 1  
 
 ---
 
@@ -92,13 +94,7 @@ Machine Learning: 1
 
 Contributions are welcome! 🚀  
 If you’d like to improve the parser, add new features, or optimize performance:
-
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature-name`)  
-3. Make your changes  
-4. Commit (`git commit -m "Add feature"`)  
-5. Push (`git push origin feature-name`)  
-6. Open a Pull Request  
+ 
 
 ---
 
@@ -107,4 +103,4 @@ If you’d like to improve the parser, add new features, or optimize performance
 **Prabhakar Rayal**  
 📍 Rishikesh, Uttarakhand | 🎓 B.Tech CSE Graduate  
 
-🔗 [LinkedIn](https://linkedin.com/in/your-link) | [GitHub](https://github.com/your-username)
+🔗 [LinkedIn](https://www.linkedin.com/in/prabhakar-rayal-663968259/) | [GitHub](https://github.com/Prabhakarrayal)
