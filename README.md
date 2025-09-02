@@ -99,6 +99,6 @@ If you’d like to improve the parser, add new features, or optimize performance
 ## 🧑‍💻 Author
 
 **Prabhakar Rayal**  
-📍 Rishikesh, Uttarakhand | 🎓 B.Tech CSE Graduate  
+📍 Rishikesh, Uttarakhand | 🎓 B.Tech CSE GEHU Graduate  
 
 🔗 [LinkedIn](https://www.linkedin.com/in/prabhakar-rayal-663968259/) | [GitHub](https://github.com/Prabhakarrayal)
