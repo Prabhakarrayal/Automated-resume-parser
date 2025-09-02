@@ -60,8 +60,6 @@ You can easily customize the parser to search for any skill or company:
 
 The parser will output whether the candidate has the skill or company experience.
 
----
-
 ## 📊 Example Output
 
             ✅ Candidate has technical skill: Python  
