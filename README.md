@@ -91,7 +91,7 @@ The parser will output whether the candidate has the skill or company experience
 ## 🤝 Contributing  
 
 Contributions are welcome! 🚀    
-If you’d like to improve the parser, add new features, or optimize performance:  
+If you’d like to **improve the parser**, add new features, or optimize performance:  
  
 
 ---
